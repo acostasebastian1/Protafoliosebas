@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normativas y Estándares Web: W3C, Accesibilidad y SEO</title>
+</head>
+
+<body>
+
+    <h1>Las Reglas de Internet (Estándares W3C, Accesibilidad y SEO)</h1>
+    <p>
+        <font color="dimgray"><i>Investigación académica acerca de las directrices que rigen el desarrollo de software frontend.</i></font>
+    </p>
+
+    <hr>
+
+    <h2>1. La W3C (World Wide Web Consortium)</h2>
+    <h3>¿Qué es y por qué define las reglas de la web?</h3>
+    <p>La W3C es una alianza a nivel mundial que fundó Tim Berners-Lee en el año 1994. Su objetivo principal consiste en redactar especificaciones técnicas y estándares libres para que el internet crezca bajo un marco ordenado, seguro y compatible con el paso del tiempo.</p>
+    <p>Este grupo es quien determina las normas del código HTML y CSS válidos. Si no existiera una entidad centralizada e imparcial, los creadores de navegadores (como Safari, Edge o Chrome) programarían etiquetas propias. El resultado sería caótico: una página se vería bien en un programa y totalmente deformada en los demás. La W3C hace que la web sea uniforme.</p>
+
+    <h2>2. Accesibilidad Web (WAI-ARIA)</h2>
+    <h3>Obligación ética y técnica</h3>
+    <p>Hacer sitios web accesibles constituye un <strong>compromiso ético</strong> fundamental porque internet debe ser una herramienta inclusiva y para todos; marginar del acceso a la información a personas con dificultades motrices, visuales o de comprensión es una exclusión digital intolerable. En el ámbito <strong>técnico</strong>, resulta imperativo dado que los programas lectores de pantalla utilizados por personas con ceguera dependen de un código perfectamente estructurado para poder traducir la interfaz de forma hablada.</p>
+
+    <h3>Ejemplos de cómo lograr la accesibilidad:</h3>
+    <ul>
+        <li><strong>Etiquetar imágenes con el atributo alt:</strong> Consiste en describir brevemente la imagen de forma escrita (ejemplo: <code>&lt;img src="logo.png" alt="Logotipo corporativo en tonos azules"&gt;</code>) para que los sistemas de voz puedan comunicarle al usuario con discapacidad visual lo que se muestra.</li>
+        <li><strong>Garantizar navegación mediante el teclado:</strong> Estructurar el código para que una persona con limitaciones de movimiento (que no puede usar el ratón) logre moverse por los menús y activar botones usando únicamente el teclado, mediante Tabulador y Enter.</li>
+    </ul>
+
+    <h2>3. SEO (Optimización en Buscadores)</h2>
+    <h3>¿Cómo ayuda un código limpio a posicionarse en Google?</h3>
+    <p>Los buscadores principales, como Google, emplean programas automáticos llamados "arañas" para analizar el código de millones de páginas diariamente. Si el código HTML está limpio y utiliza etiquetas semánticas correctas, estos rastreadores interpretan y catalogan la temática de la página de forma inmediata.</p>
+    <p>Por ejemplo, declarar el título principal mediante un <code>&lt;h1&gt;</code> e implementar listas con <code>&lt;ul&gt;</code> le aclara a Google qué información tiene prioridad. Además, un código sin etiquetas rotas acelera la velocidad de carga del sitio, un factor determinante que Google premia posicionando la web entre los primeros resultados.</p>
+
+    <h2>4. Las etiquetas &lt;meta&gt; esenciales</h2>
+    <h3>Importancia en el encabezado del documento</h3>
+    <p>Las etiquetas meta son líneas de configuración que no se muestran en pantalla pero resultan cruciales para el funcionamiento del navegador y de los navegadores. Se configuran dentro del <code>&lt;head&gt;</code>:</p>
+    <ul>
+        <li><strong>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;:</strong> Esta etiqueta es clave para el diseño adaptable a móviles (diseño responsivo). Le indica al dispositivo que adapte el tamaño de la página al ancho físico de la pantalla, evitando que la web aparezca en miniatura y forzando a hacer zoom lateral.</li>
+        <li><strong>&lt;meta charset="UTF-8"&gt;:</strong> Establece la codificación de caracteres. Usar el formato UTF-8 asegura que el navegador represente correctamente letras especiales en español (como tildes, la eñe o signos de interrogación invertidos) y emojis, previniendo que se muestren símbolos extraños en su lugar.</li>
+    </ul>
+
+</body>
+
+</html>
